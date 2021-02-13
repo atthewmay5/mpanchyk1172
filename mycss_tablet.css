@@ -13,8 +13,6 @@
 
 h2{
 	
-	background-color: grey;
-	text-align: center;
 	font-size: 28px;
 	
 }
@@ -22,8 +20,6 @@ h2{
 
 p{
 	
-	background-color: grey;
-	text-align: center;
 	font-size:20px;
 	
 }
@@ -39,7 +35,6 @@ input{
 
 table, th, td{
 	
-	border: 1px solid black;
 	font-size: 20px;
 	
 }
@@ -73,8 +68,6 @@ ol{
 
 h2{
 	
-	background-color: grey;
-	text-align: center;
 	font-size: 26px;
 	
 }
@@ -82,8 +75,6 @@ h2{
 
 p{
 	
-	background-color: grey;
-	text-align: center;
 	font-size:18px;
 	
 }
@@ -132,8 +123,6 @@ ol{
 
 h2{
 	
-	background-color: grey;
-	text-align: center;
 	font-size: 24px;
 	
 }
@@ -141,8 +130,6 @@ h2{
 
 p{
 	
-	background-color: grey;
-	text-align: center;
 	font-size: 16px;
 	
 }
@@ -191,8 +178,6 @@ ol{
 
 h2{
 	
-	background-color: grey;
-	text-align: center;
 	font-size: 22px;
 	
 }
@@ -200,9 +185,7 @@ h2{
 
 p{
 	
-	background-color: grey;
-	text-align: center;
-	font-size:14px;
+	font-size:24px;
 	
 }
 	
