@@ -1,0 +1,53 @@
+body{
+	
+	background-color: grey;
+	text-align: center;
+	
+}
+
+h2{
+	
+	background-color: grey;
+	text-align: center;
+	
+}
+
+
+p{
+	
+	background-color: grey;
+	text-align: center;
+	
+}
+
+.topnav{
+	
+	border: 1px solid white;
+	padding: .4rem;
+	background: lightgrey;
+	
+}
+
+img{
+	
+	border-radius: 9px;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+/*This is the formatting of the email button of the form*/
+input{
+	
+	width: 40%;
+	border: 5px solid red;
+	
+}
+
+table, th, td{
+	
+	border: 1px solid black;
+	
+}
+
+/*ul, li, img, h1, p, a, table, form, div, span*/
