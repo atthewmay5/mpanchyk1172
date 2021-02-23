@@ -4,9 +4,10 @@
 
 	<head>
 	
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<script src="bootstrap.min.js"></script>
 		<link rel="stylesheet" href="mycss_web.css" media="(min-width: 1921px)">
 		<link rel="stylesheet" href="mycss_tablet.css" media="(max-width: 1920px)">
-
 	
 		<title> Matthew Panchyk </title>
 		
@@ -30,29 +31,40 @@
 	}
 	</style>
 	
-	<div class="topnav">
-		<a class="active" href="#home" style="color:green;">Home</a>
-		<a href="#information" style="color:purple;">Information</a>
-		<a href="#education" style="color:purple;">Education</a>
-		<a href="#work" style="color:purple;">Work Experience</a>
-		<a href="#programming" style="color:purple;">Programming Experience</a>
-		<a href="#favorites" style="color:purple;">Favorites</a>
-		<a href="#index" style="color:purple;">Index</a>
-		<a href="#contact" style="color:purple;">Contact Form</a>
-	</div>
-	<hr>
-	
 	<a id="home"></a>
-	<img src="https://raw.githubusercontent.com/atthewmay5/mpanchyk1172/main/businessportrait.jpg" width="20%" height="18%">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<a class="nav-link" href="#home" data-toggle="tooltip" data-placement="bottom" title="Go to homepage">Home</a>
+		<a class="nav-link" href="#information" data-toggle="tooltip" data-placement="bottom" title="Go to about section">Information</a>
+		<a class="nav-link" href="#education" data-toggle="tooltip" data-placement="bottom" title="Go to education section">Education</a>
+		<a class="nav-link" href="#work" data-toggle="tooltip" data-placement="bottom" title="Go to work experience section">Experience</a>
+		<a class="nav-link" href="#programming" data-toggle="tooltip" data-placement="bottom" title="Go to programming experience section">Programming Experience</a>
+		<a class="nav-link" href="#favorites" data-toggle="tooltip" data-placement="bottom" title="Go to favorites section">Favorites</a>
+		<a class="nav-link" href="#index" data-toggle="tooltip" data-placement="bottom" title="Go to index">Index</a>
+		<a class="nav-link" href="#contact" data-toggle="tooltip" data-placement="bottom" title="Go to contact form">Contact</a>
+	</nav>
+	
+	<div class="container">
+		<img class="rounded-circle" src="https://raw.githubusercontent.com/atthewmay5/mpanchyk1172/main/businessportrait.jpg" width="30%" height="28%">
+	</div>
 		<h1> <span style="color:Red">Matt Panchyk, 1172 </span></h1>
 		
 		<hr>
 		<a id="information"></a>
 		<h2> Information: </h2>
-			<p>
-			I am currently attending St. John's University as a senior in the College of Professional Studies. Studying Computer Science with a concentration in Cyber Security.
-			<br>My anticipated graduation month is May 2021. Dean's List freshman, sophomore, and junior year.</br>
-			</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p class="text-justify">
+					I am currently attending St. John's University as a senior in the College of Professional Studies. I am studying Computer Science with a concentration in Cyber Security. My anticipated graduation month is May 2021, to obtain a BS Degree. I was on the Dean's List freshman, sophomore, and junior year.
+					</p>
+				</div>
+				<div class="col-md-6">
+					<p class="text-justify">
+					Outside of school, I am a photographer. I mainly take photos of nature, but I also delve into street photography as well as portrait photography. I also am very big into cars, I own a 1993 Volkswagen Corrado, and a 2001 Mazda Miata. I do most of the work on them myself, and it is a big (expensive) passion of mine.
+					</p>
+				</div>
+			</div>
+		</div>
 		<hr>
 		
 		<a id="education"></a>
@@ -84,25 +96,40 @@
 			</ol>
 		<hr>
 		
-		<a id="favorites"></a>
-		<table align="center">
-			<tr>
-				<th> Favorite Song: </th>
-				<th> Favorite Film: </th>
-				<th> Favorite TV Show: </th>
-				<th> Favorite Website: </th>
-			</tr>
-			<tr>
+		<div class="container">
+		  <h2>Favorites:</h2>
+		  <table class="table table-dark">
+			<thead>
+			  <tr>
+				<th>Favorite Song</th>
+				<th>Favorite Film</th>
+				<th>Favorite TV Show</th>
+				<th>Favorite Website</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
 				<td> YYZ - Rush </td>
 				<td> 2001: A Space Odyssey </td>
 				<td> The haunting of Hill House </td>
 				<td> 
 				<a  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> Click Here!</a>
-				<a><br>Youtube is a great website for hosting and viewing videos on the web.</br> </a>
 				</td>
-			</tr>
-		</table>
+			  </tr>
+			  <tr>
+			</tbody>
+		  </table>
+		</div>
 		
+		<div class="container">
+			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collap" aria-expanded="false" aria-controls="collapseExample">About the website!</button>
+				<div id="collap" class="collapse">
+				<div class="card card-body">
+					Youtube is a great website for hosting and viewing videos on the web.
+				</div>
+				</div>
+			</div>
+		<hr>
 		<div id="youtube_iframe">
 			<iframe width="640" height="360" src="https://www.youtube.com/embed/LdpMpfp-J_I" frameborder="0"></iframe>
 		</div>
@@ -122,7 +149,7 @@
 			</div>
 		</form>
 		
-		
+				
 	</body>
 
 
